@@ -1,0 +1,16 @@
+{
+  "build": {
+    "production": {
+      "channel": "production",
+      "developmentClient": false,
+      "distribution": "internal",
+      "node": "20.13.1",
+      "env": {
+        "APP_PROFILE": "production"
+      },
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    }
+  }
+}
