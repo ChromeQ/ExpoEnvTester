@@ -12,7 +12,7 @@
     "lint": "expo lint",
     "build:local": "EAS_LOCAL_BUILD_ARTIFACTS_DIR=./dist npx --yes eas-cli@latest build --platform android --profile production --local",
     "build:remote": "EAS_LOCAL_BUILD_ARTIFACTS_DIR=./dist npx --yes eas-cli@latest build --platform android --profile production",
-    "build:local:dotenvx": "EAS_LOCAL_BUILD_ARTIFACTS_DIR=./dist npx --yes @dotenvx/dotenvx run --env-file .env -- npx eas-cli@latest build --platform android --profile production",
+    "build:local:dotenvx": "EAS_LOCAL_BUILD_ARTIFACTS_DIR=./dist npx --yes @dotenvx/dotenvx run --env-file .env -- npx eas-cli@latest build --platform android --profile production --local",
     "build:remote:dotenvx": "EAS_LOCAL_BUILD_ARTIFACTS_DIR=./dist npx --yes @dotenvx/dotenvx run --env-file .env -- npx eas-cli@latest build --platform android --profile production"
   },
   "jest": {
